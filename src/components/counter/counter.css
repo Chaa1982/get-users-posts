@@ -1,0 +1,35 @@
+.main-wrap-counter {
+    width: 100vw;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background: #f2e711d9;
+}
+.main-wrap-counter .hide,
+.btn-wrap button {
+    background: blue;
+    color: white
+}
+
+.main-wrap-counter .hide:hover,
+.btn-wrap button:hover {
+    background: white;
+    color: blue;
+    border: 1px solid blue;
+    transition: 0.3s linear;
+}
+.btn-wrap {
+    display: flex;
+    gap: 2px;
+}
+.btn-wrap button {
+    width: 30px;
+    height: 30px;
+    
+}
+.main-wrap-counter .screen {
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+}

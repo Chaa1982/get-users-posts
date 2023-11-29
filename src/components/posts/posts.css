@@ -1,0 +1,15 @@
+.main-wrap-posts {
+    width: 100vw;
+    padding: 10px 0;
+    background: lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.main-wrap-posts .post-card {
+    padding: 0 20px;
+    width: calc(100% - 40px);
+    background: darkgreen;
+    color: white;
+}

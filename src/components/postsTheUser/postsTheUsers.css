@@ -1,0 +1,23 @@
+.main-wrap-post-the-users {
+    width: 100vw;
+    padding: 10px 0;
+    background: lightsalmon;
+}
+
+.main-wrap-post-the-users .btn-name-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
+}
+.main-wrap-post-the-users .btn-name {
+    width: 160px;
+    background: blueviolet;
+    color: white;
+}
+.main-wrap-post-the-users .btn-name:hover{
+    background: white;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    transition: 0.25s linear;
+}
